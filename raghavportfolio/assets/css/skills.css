@@ -1,0 +1,65 @@
+/* line 1, skills.scss */
+.skills-wrap {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+/* line 5, skills.scss */
+.skills-wrap i {
+  float: left;
+  width: 20px;
+  font-size: 50px;
+  padding-right: 50px;
+  color: #0030A5;
+  font-weight: 700;
+}
+/* line 13, skills.scss */
+.skills-wrap ul {
+  float: left;
+  width: 200px;
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+/* line 19, skills.scss */
+.skills-wrap .progress-bar {
+  clear: both;
+  float: none;
+  display: block;
+}
+
+/* line 25, skills.scss */
+.skills-heading {
+  color: #0030A5;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* line 31, skills.scss */
+.skills-description {
+  color: #000;
+  font-size: 14px;
+}
+
+/* line 36, skills.scss */
+.progress-bar {
+  background-color: #fff;
+  height: 10px;
+  width: 206px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px #fff inset, 0 1px 0 #fff;
+  border: 1px solid #eee;
+}
+
+/* line 45, skills.scss */
+.progress-bar span {
+  display: inline-block;
+  height: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  transition: width .4s ease-in-out;
+  padding: 0;
+  margin: 0;
+  background: #0030A5;
+  position: relative;
+  top: -8px;
+}

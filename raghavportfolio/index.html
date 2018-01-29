@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <title>Raghav Raman</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta author="Raghav Raman">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="canonical" href="raghavraman.com" />
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+    window.ga = function() { ga.q.push(arguments) };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="header-navbar">
+            <a href="#" class="header-menuIcon"></a>
+            <ul class="header-ulList">
+                <li class="header-navList"><a href="/" class="header-navlink header-navActive">Home</a></li>
+                <li class="header-navList"><a href="about.html" class="header-navlink">About</a></li>
+                <li class="header-navList"><a href="work.html" class="header-navlink">Work</a></li>
+                <li class="header-navList"><a href="blog.html" class="header-navlink">Skills</a></li>
+                <li class="header-navList"><a href="contact.html" class="header-navlink">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Mobile Nav Start -->
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+   <ul>
+                <li class="footer-icon-list"><a href="https://www.facebook.com/raghav.raman.10" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li class="footer-icon-list"><a href="https://twitter.com/RghvRaman" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li class="footer-icon-list"><a href="https://plus.google.com/+RaghavRamanRagz" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                <li class="footer-icon-list"><a href="https://www.linkedin.com/in/rghvraman/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li class="footer-icon-list"><a href="https://www.instagram.com/raghav_raman/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()" class="open-nav-icon">&#9776;</span>
+    <!-- Mobile Nav End -->
+    <!-- End of header -->
+    <div class="txt-container">
+        <img src="assets/images/RRwhitelong.png" alt="" title="">
+    </div>
+    <!-- You need this element to prevent the content of the page from jumping up -->
+    <div class="header-fixed-placeholder"></div>
+    <!-- The content of your page would go here. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+
+        var showHeaderAt = 150;
+
+        var win = $(window),
+            body = $('body');
+
+        // Show the fixed header only on larger screen devices
+
+        if (win.width() > 400) {
+
+            // When we scroll more than 150px down, we set the
+            // "fixed" class on the body element.
+
+            win.on('scroll', function(e) {
+
+                if (win.scrollTop() > showHeaderAt) {
+                    body.addClass('fixed');
+                } else {
+                    body.removeClass('fixed');
+                }
+            });
+
+        }
+
+    });
+    </script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    </div>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+    <!-- Add your site or application content here -->
+    <br/>
+    <br/>
+
+<!-- 
+    <script type="text/javascript" src="assets/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/jquery/jquery-validate-min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-ui.js"></script>
+ -->    
+
+</body>
+
+</html>

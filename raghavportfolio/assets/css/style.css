@@ -1,0 +1,668 @@
+/* line 1, home.scss */
+body {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url("../images/homebg1.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 1.05em;
+  line-height: 1.25em;
+  font-family: 'OpenSans', Helvetica Neue, Helvetica, Arial;
+  box-sizing: border-box;
+}
+
+/* line 19, home.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'OpenSans', Helvetica Neue, Helvetica, Arial;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* line 27, home.scss */
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* line 32, home.scss */
+p::selection {
+  background: rgba(0, 38, 133, 0.8);
+  color: #fff;
+}
+
+/* line 37, home.scss */
+.txt-container {
+  max-width: 650px;
+  position: absolute;
+  top: 40%;
+  clear: both;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/* line 44, home.scss */
+.txt-container p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+}
+/* line 49, home.scss */
+.txt-container .signature {
+  text-align: right;
+  position: relative;
+  right: 30px;
+  top: 20px;
+}
+
+/* line 57, home.scss */
+.container-opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25px;
+}
+
+/* line 62, home.scss */
+header {
+  width: 100%;
+  height: 76px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/* line 68, home.scss */
+header #logo {
+  width: 200px;
+  height: 50px;
+  margin: 30px 60px;
+  float: left;
+  background: url("../images/logo3.png") no-repeat center;
+  display: block;
+}
+
+/* line 78, home.scss */
+.header-navbar {
+  float: right;
+  padding: 20px;
+}
+/* line 81, home.scss */
+.header-navbar .header-menuIcon {
+  width: 40px;
+  height: 40px;
+  display: hidden;
+  background: #4c8fec url("../images/menu-icon.png") center;
+}
+/* line 86, home.scss */
+.header-navbar .header-menuIcon .header-navlink {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 89, home.scss */
+.header-navbar .header-menuIcon .header-navlink:hover {
+  color: #f00;
+}
+/* line 93, home.scss */
+.header-navbar .header-menuIcon .header-navActive {
+  color: #f00;
+  text-decoration: none;
+}
+
+/* line 102, home.scss */
+.header-navbar .header-ulList,
+.navbar2-ulList .header-ulList {
+  list-style-type: none;
+}
+/* line 106, home.scss */
+.header-navbar .header-navList,
+.header-navbar .navbar2-navList,
+.navbar2-ulList .header-navList,
+.navbar2-ulList .navbar2-navList {
+  display: inline-block;
+  padding: 10px 20px;
+}
+/* line 110, home.scss */
+.header-navbar .header-navlink,
+.navbar2-ulList .header-navlink {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+/* line 115, home.scss */
+.header-navbar .header-navlink:hover,
+.navbar2-ulList .header-navlink:hover {
+  color: #fff;
+  text-decoration: underline #fff;
+}
+/* line 120, home.scss */
+.header-navbar .header-navActive,
+.navbar2-ulList .header-navActive {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/*Mobile Nav start*/
+/* line 128, home.scss */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+/* line 139, home.scss */
+.sidenav a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+/* line 147, home.scss */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* line 153, home.scss */
+.sidenav ul {
+  text-align: center;
+}
+/* line 155, home.scss */
+.sidenav ul a .fa {
+  color: #fff;
+}
+
+/* line 162, home.scss */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  text-align: right;
+}
+
+/* line 170, home.scss */
+.open-nav-icon {
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+  float: right;
+  top: 30px;
+  position: relative;
+  border: 1px solid #fff;
+  padding: 5px 5px 8px 5px;
+  right: 20px;
+  border-radius: 4px;
+  padding-bottom: 8px;
+}
+/* line 182, home.scss */
+.open-nav-icon:hover {
+  background: #0030A5;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* line 188, home.scss */
+.openNav-iconColor {
+  color: #0030A5;
+  border: 1px solid #0030A5;
+}
+
+@media screen and (max-height: 450px) {
+  /* line 193, home.scss */
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  /* line 194, home.scss */
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+/*mobile nav end*/
+/* Media Queries in Mobile and Tablet Responsive*/
+@media only screen and (max-width: 780px) {
+  /* line 202, home.scss */
+  .header-navbar {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 207, home.scss */
+  .open-nav-icon {
+    display: block;
+  }
+}
+@media only screen and (min-width: 770px) {
+  /* line 213, home.scss */
+  .open-nav-icon {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 218, home.scss */
+  .txt-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+/* line 1, font.scss */
+* {
+  fonts-family: 'Open Sans', sans-serif;
+  fonts-size: 12px;
+  fonts-weight: normal;
+  fonts-variant: normal;
+  -webkit-fonts-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../aasets/css/fontss/OpenSans-Bold.eot");
+  src: url("../assets/css/fontsOpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Bold.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Bold.woff") format("woff"), url("../assets/css/fontsOpenSans-Bold.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Bold.svg#open_sansbold") format("svg");
+  fonts-weight: 700;
+  fonts-style: normal;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../assets/css/fontsOpenSans-Italic.eot");
+  src: url("../assets/css/fontsOpenSans-Italic.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Italic.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Italic.woff") format("woff"), url("../assets/css/fontsOpenSans-Italic.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Italic.svg#open_sansitalic") format("svg");
+  fonts-weight: normal;
+  fonts-style: normal;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../assets/css/fontsOpenSans-Light.eot");
+  src: url("../assets/css/fontsOpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Light.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Light.woff") format("woff"), url("../assets/css/fontsOpenSans-Light.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Light.svg#open_sanslight") format("svg");
+  fonts-weight: 300;
+  fonts-style: normal;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../assets/css/fontsOpenSans-Regular.eot");
+  src: url("../assets/css/fontsOpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Regular.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Regular.woff") format("woff"), url("../assets/css/fontsOpenSans-Regular.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Regular.svg#open_sansregular") format("svg");
+  fonts-weight: 400;
+  fonts-style: normal;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../assets/css/fontsOpenSans-Semibold.eot");
+  src: url("../assets/css/fontsOpenSans-Semibold.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Semibold.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Semibold.woff") format("woff"), url("../assets/css/fontsOpenSans-Semibold.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Semibold.svg#open_sanssemibold") format("svg");
+  fonts-weight: 600;
+  fonts-style: normal;
+}
+
+/* line 1, about.scss */
+.navbar2-navlink {
+  color: #0030A5;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+/* line 6, about.scss */
+.navbar2-navlink:hover {
+  text-decoration: underline #0030A5;
+}
+
+/* line 10, about.scss */
+.navbar2-navlink-active {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/* line 15, about.scss */
+#logo1 {
+  width: 200px;
+  height: 50px;
+  margin: 14px 18px;
+  float: left;
+  display: block;
+  background: url(../images/rrwhitesmall.png) no-repeat center;
+}
+
+/* line 24, about.scss */
+.about-container {
+  width: 100%;
+  padding-top: 100px;
+}
+
+/* line 29, about.scss */
+.about-wrap {
+  width: 70%;
+  margin-left: 60px;
+  margin-right: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* line 38, about.scss */
+.about-image-container {
+  width: 30%;
+  right: 0;
+  position: absolute;
+  top: 7em;
+  position: fixed;
+}
+
+/* line 46, about.scss */
+.about-image {
+  width: 100%;
+  max-width: 100%;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: url("../images/img-background.png") no-repeat;
+}
+
+/* line 59, about.scss */
+.about-txt {
+  font-size: 16px;
+  color: #0030A5;
+  font-weight: 500;
+  font-family: 'Helvetica', arial;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 70, about.scss */
+  .about-image-container {
+    width: 53%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  /* line 75, about.scss */
+  .about-image-container {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 736px) {
+  /* line 80, about.scss */
+  .about-image-container {
+    width: 100%;
+  }
+
+  /* line 83, about.scss */
+  .about-wrap {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 20px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+  }
+}
+/* line 1, contact.scss */
+.contact-container {
+  width: 100%;
+  text-align: center;
+  clear: both;
+  padding-top: 100px;
+}
+/* line 6, contact.scss */
+.contact-container .icon-img {
+  width: 40px;
+  padding-bottom: 10px;
+}
+/* line 10, contact.scss */
+.contact-container .address-txt {
+  color: #0030A5;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+/* line 18, contact.scss */
+.contact-footer {
+  margin-top: 100px;
+}
+
+/* line 22, contact.scss */
+.footer-icon-list {
+  display: inline-block;
+  padding-left: 40px;
+  cursor: pointer;
+}
+/* line 26, contact.scss */
+.footer-icon-list .fa {
+  font-size: 28px;
+  color: #0030A5;
+}
+/* line 30, contact.scss */
+.footer-icon-list .copyright {
+  font-size: 18px;
+  color: #0030A5;
+  text-align: center;
+}
+
+/* line 37, contact.scss */
+.icon-container {
+  width: 42%;
+  float: left;
+}
+
+/* line 42, contact.scss */
+.copyright-container {
+  width: 58%;
+  float: right;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 47, contact.scss */
+  .icon-container {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  /* line 52, contact.scss */
+  .copyright-container {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  /* line 58, contact.scss */
+  .footer-icon-list {
+    padding-left: 20px;
+  }
+}
+/* line 1, work.scss */
+.work-container {
+  clear: both;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+/* line 7, work.scss */
+.work-thumbnail-block {
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 15, work.scss */
+.work-thumbnail-block a {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* line 21, work.scss */
+.work-thumbnail {
+  margin-right: 30px;
+}
+/* line 23, work.scss */
+.work-thumbnail:hover {
+  opacity: 0.5;
+}
+
+/* line 28, work.scss */
+.work-image {
+  padding-bottom: 40px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/* line 38, work.scss */
+.work-content-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 42, work.scss */
+.work-content-block .work-title {
+  color: #000;
+  font-size: 16px;
+}
+
+/* line 47, work.scss */
+.work-block-container {
+  position: relative;
+  cursor: pointer;
+}
+
+/* line 52, work.scss */
+.work-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/* line 61, work.scss */
+.text-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* line 72, work.scss */
+.work-block-container:hover .work-image {
+  opacity: 0.3;
+}
+
+/* line 76, work.scss */
+.work-block-container:hover .text-middle {
+  opacity: 1;
+}
+
+/* line 80, work.scss */
+.heading-text {
+  color: #0030A5;
+  font-size: 20px;
+  padding: 16px 32px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 720px) {
+  /* line 89, work.scss */
+  .work-thumbnail-block {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+/* line 1, skills.scss */
+.skills-wrap {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+/* line 5, skills.scss */
+.skills-wrap i {
+  float: left;
+  width: 20px;
+  font-size: 50px;
+  padding-right: 50px;
+  color: #0030A5;
+  font-weight: 700;
+}
+/* line 13, skills.scss */
+.skills-wrap ul {
+  float: left;
+  width: 200px;
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+/* line 19, skills.scss */
+.skills-wrap .progress-bar {
+  clear: both;
+  float: none;
+  display: block;
+}
+
+/* line 25, skills.scss */
+.skills-heading {
+  color: #0030A5;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* line 31, skills.scss */
+.skills-description {
+  color: #000;
+  font-size: 14px;
+}
+
+/* line 36, skills.scss */
+.progress-bar {
+  background-color: #fff;
+  height: 10px;
+  width: 206px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px #fff inset, 0 1px 0 #fff;
+  border: 1px solid #eee;
+}
+
+/* line 45, skills.scss */
+.progress-bar span {
+  display: inline-block;
+  height: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  transition: width .4s ease-in-out;
+  padding: 0;
+  margin: 0;
+  background: #0030A5;
+  position: relative;
+  top: -8px;
+}

@@ -1,0 +1,262 @@
+/* line 1, home.scss */
+body {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url("../images/homebg1.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 1.05em;
+  line-height: 1.25em;
+  font-family: 'OpenSans', Helvetica Neue, Helvetica, Arial;
+  box-sizing: border-box;
+}
+
+/* line 19, home.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'OpenSans', Helvetica Neue, Helvetica, Arial;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* line 27, home.scss */
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* line 32, home.scss */
+p::selection {
+  background: rgba(0, 38, 133, 0.8);
+  color: #fff;
+}
+
+/* line 37, home.scss */
+.txt-container {
+  max-width: 650px;
+  position: absolute;
+  top: 40%;
+  clear: both;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/* line 44, home.scss */
+.txt-container p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+}
+/* line 49, home.scss */
+.txt-container .signature {
+  text-align: right;
+  position: relative;
+  right: 30px;
+  top: 20px;
+}
+
+/* line 57, home.scss */
+.container-opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25px;
+}
+
+/* line 62, home.scss */
+header {
+  width: 100%;
+  height: 76px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/* line 68, home.scss */
+header #logo {
+  width: 200px;
+  height: 50px;
+  margin: 30px 60px;
+  float: left;
+  background: url("../images/logo3.png") no-repeat center;
+  display: block;
+}
+
+/* line 78, home.scss */
+.header-navbar {
+  float: right;
+  padding: 20px;
+}
+/* line 81, home.scss */
+.header-navbar .header-menuIcon {
+  width: 40px;
+  height: 40px;
+  display: hidden;
+  background: #4c8fec url("../images/menu-icon.png") center;
+}
+/* line 86, home.scss */
+.header-navbar .header-menuIcon .header-navlink {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 89, home.scss */
+.header-navbar .header-menuIcon .header-navlink:hover {
+  color: #f00;
+}
+/* line 93, home.scss */
+.header-navbar .header-menuIcon .header-navActive {
+  color: #f00;
+  text-decoration: none;
+}
+
+/* line 102, home.scss */
+.header-navbar .header-ulList,
+.navbar2-ulList .header-ulList {
+  list-style-type: none;
+}
+/* line 106, home.scss */
+.header-navbar .header-navList,
+.header-navbar .navbar2-navList,
+.navbar2-ulList .header-navList,
+.navbar2-ulList .navbar2-navList {
+  display: inline-block;
+  padding: 10px 20px;
+}
+/* line 110, home.scss */
+.header-navbar .header-navlink,
+.navbar2-ulList .header-navlink {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+/* line 115, home.scss */
+.header-navbar .header-navlink:hover,
+.navbar2-ulList .header-navlink:hover {
+  color: #fff;
+  text-decoration: underline #fff;
+}
+/* line 120, home.scss */
+.header-navbar .header-navActive,
+.navbar2-ulList .header-navActive {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/*Mobile Nav start*/
+/* line 128, home.scss */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+/* line 139, home.scss */
+.sidenav a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+/* line 147, home.scss */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* line 153, home.scss */
+.sidenav ul {
+  text-align: center;
+}
+/* line 155, home.scss */
+.sidenav ul a .fa {
+  color: #fff;
+}
+
+/* line 162, home.scss */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  text-align: right;
+}
+
+/* line 170, home.scss */
+.open-nav-icon {
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+  float: right;
+  top: 30px;
+  position: relative;
+  border: 1px solid #fff;
+  padding: 5px 5px 8px 5px;
+  right: 20px;
+  border-radius: 4px;
+  padding-bottom: 8px;
+}
+/* line 182, home.scss */
+.open-nav-icon:hover {
+  background: #0030A5;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* line 188, home.scss */
+.openNav-iconColor {
+  color: #0030A5;
+  border: 1px solid #0030A5;
+}
+
+@media screen and (max-height: 450px) {
+  /* line 193, home.scss */
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  /* line 194, home.scss */
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+/*mobile nav end*/
+/* Media Queries in Mobile and Tablet Responsive*/
+@media only screen and (max-width: 780px) {
+  /* line 202, home.scss */
+  .header-navbar {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 207, home.scss */
+  .open-nav-icon {
+    display: block;
+  }
+}
+@media only screen and (min-width: 770px) {
+  /* line 213, home.scss */
+  .open-nav-icon {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 218, home.scss */
+  .txt-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}

@@ -1,0 +1,848 @@
+/* line 1, about.scss */
+.navbar2-navlink {
+  color: #0030A5;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* line 8, about.scss */
+#logo1 {
+  width: 200px;
+  height: 50px;
+  margin: 23px 60px;
+  float: left;
+  display: block;
+  background: url(../images/logo4.png) no-repeat center;
+}
+
+/* line 17, about.scss */
+.about-container {
+  width: 100%;
+  padding-top: 100px;
+}
+
+/* line 22, about.scss */
+.about-wrap {
+  width: 70%;
+  margin-left: 60px;
+  margin-right: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* line 31, about.scss */
+.about-image-container {
+  width: 30%;
+  right: 0;
+  position: absolute;
+  top: 7em;
+  position: fixed;
+}
+
+/* line 39, about.scss */
+.about-image {
+  width: 100%;
+  max-width: 100%;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: url("../images/img-background.png") no-repeat;
+}
+
+/* line 52, about.scss */
+.about-txt {
+  font-size: 16px;
+  color: #0030A5;
+  font-weight: 500;
+  font-family: 'Helvetica', arial;
+  line-height: 30px;
+}
+
+/* line 1, contact.scss */
+.contact-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 130px;
+}
+/* line 5, contact.scss */
+.contact-container .icon-img {
+  width: 40px;
+  padding-bottom: 10px;
+}
+/* line 9, contact.scss */
+.contact-container .address-txt {
+  color: #0030A5;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+/* line 17, contact.scss */
+.contact-footer {
+  margin-top: 100px;
+}
+
+/* line 21, contact.scss */
+.footer-icon-list {
+  display: inline-block;
+  padding-left: 40px;
+  cursor: pointer;
+}
+/* line 25, contact.scss */
+.footer-icon-list .fa {
+  font-size: 28px;
+  color: #0030A5;
+}
+/* line 29, contact.scss */
+.footer-icon-list .copyright {
+  font-size: 18px;
+  color: #0030A5;
+  text-align: center;
+}
+
+/* line 36, contact.scss */
+.icon-container {
+  width: 42%;
+  float: left;
+}
+
+/* line 41, contact.scss */
+.copyright-container {
+  width: 58%;
+  float: right;
+}
+
+/* line 1, font.scss */
+* {
+  fonts-family: 'Open Sans', sans-serif;
+  fonts-size: 12px;
+  fonts-weight: normal;
+  fonts-variant: normal;
+  -webkit-fonts-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../aasets/css/fontss/OpenSans-Bold.eot");
+  src: url("../assets/css/fontsOpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Bold.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Bold.woff") format("woff"), url("../assets/css/fontsOpenSans-Bold.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Bold.svg#open_sansbold") format("svg");
+  fonts-weight: 700;
+  fonts-style: normal;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../assets/css/fontsOpenSans-Italic.eot");
+  src: url("../assets/css/fontsOpenSans-Italic.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Italic.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Italic.woff") format("woff"), url("../assets/css/fontsOpenSans-Italic.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Italic.svg#open_sansitalic") format("svg");
+  fonts-weight: normal;
+  fonts-style: normal;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../assets/css/fontsOpenSans-Light.eot");
+  src: url("../assets/css/fontsOpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Light.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Light.woff") format("woff"), url("../assets/css/fontsOpenSans-Light.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Light.svg#open_sanslight") format("svg");
+  fonts-weight: 300;
+  fonts-style: normal;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../assets/css/fontsOpenSans-Regular.eot");
+  src: url("../assets/css/fontsOpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Regular.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Regular.woff") format("woff"), url("../assets/css/fontsOpenSans-Regular.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Regular.svg#open_sansregular") format("svg");
+  fonts-weight: 400;
+  fonts-style: normal;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../assets/css/fontsOpenSans-Semibold.eot");
+  src: url("../assets/css/fontsOpenSans-Semibold.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Semibold.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Semibold.woff") format("woff"), url("../assets/css/fontsOpenSans-Semibold.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Semibold.svg#open_sanssemibold") format("svg");
+  fonts-weight: 600;
+  fonts-style: normal;
+}
+
+/* line 1, home.scss */
+body {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url("../images/homebg1.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 1.05em;
+  line-height: 1.25em;
+  font-family: 'OpenSans', Helvetica Neue, Helvetica, Arial;
+  box-sizing: border-box;
+}
+
+/* line 19, home.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'OpenSans', Helvetica Neue, Helvetica, Arial;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* line 27, home.scss */
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* line 32, home.scss */
+p::selection {
+  background: rgba(0, 38, 133, 0.8);
+  color: #fff;
+}
+
+/* line 37, home.scss */
+.txt-container {
+  max-width: 650px;
+  padding-top: 10%;
+  clear: both;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/* line 43, home.scss */
+.txt-container p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+}
+/* line 48, home.scss */
+.txt-container .signature {
+  text-align: right;
+  position: relative;
+  right: 30px;
+  top: 20px;
+}
+
+/* line 56, home.scss */
+.container-opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25px;
+}
+
+/* line 61, home.scss */
+header {
+  width: 100%;
+  height: 76px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+/* line 68, home.scss */
+header #logo {
+  width: 200px;
+  height: 50px;
+  margin: 30px 60px;
+  float: left;
+  background: url("../images/logo3.png") no-repeat center;
+  display: block;
+}
+
+/* line 78, home.scss */
+.header-navbar {
+  float: right;
+  padding: 20px;
+}
+/* line 81, home.scss */
+.header-navbar .header-menuIcon {
+  width: 40px;
+  height: 40px;
+  display: hidden;
+  background: #4c8fec url("../images/menu-icon.png") center;
+}
+/* line 86, home.scss */
+.header-navbar .header-menuIcon .header-navlink {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 89, home.scss */
+.header-navbar .header-menuIcon .header-navlink:hover {
+  color: #f00;
+}
+/* line 93, home.scss */
+.header-navbar .header-menuIcon .header-navActive {
+  color: #f00;
+  text-decoration: none;
+}
+
+/* line 102, home.scss */
+.header-navbar .header-ulList,
+.navbar2-ulList .header-ulList {
+  list-style-type: none;
+}
+/* line 106, home.scss */
+.header-navbar .header-navList,
+.header-navbar .navbar2-navList,
+.navbar2-ulList .header-navList,
+.navbar2-ulList .navbar2-navList {
+  display: inline-block;
+  padding: 10px 20px;
+}
+/* line 110, home.scss */
+.header-navbar .header-navlink,
+.navbar2-ulList .header-navlink {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+/* line 114, home.scss */
+.header-navbar .header-navlink:hover,
+.navbar2-ulList .header-navlink:hover {
+  color: #424DF6;
+  text-decoration: underline #424DF6;
+}
+/* line 119, home.scss */
+.header-navbar .header-navActive,
+.navbar2-ulList .header-navActive {
+  color: #f00;
+  text-decoration: none;
+}
+
+/* Media Queries in Mobile and Tablet Responsive*/
+@media only screen and (max-width: 780px) {
+  /* line 129, home.scss */
+  .header-navbar {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 135, home.scss */
+  .txt-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+/* line 1, home.scss */
+body {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url("../images/homebg1.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 1.05em;
+  line-height: 1.25em;
+  font-family: 'OpenSans', Helvetica Neue, Helvetica, Arial;
+  box-sizing: border-box;
+}
+
+/* line 19, home.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'OpenSans', Helvetica Neue, Helvetica, Arial;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* line 27, home.scss */
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* line 32, home.scss */
+p::selection {
+  background: rgba(0, 38, 133, 0.8);
+  color: #fff;
+}
+
+/* line 37, home.scss */
+.txt-container {
+  max-width: 650px;
+  padding-top: 10%;
+  clear: both;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/* line 43, home.scss */
+.txt-container p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+}
+/* line 48, home.scss */
+.txt-container .signature {
+  text-align: right;
+  position: relative;
+  right: 30px;
+  top: 20px;
+}
+
+/* line 56, home.scss */
+.container-opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25px;
+}
+
+/* line 61, home.scss */
+header {
+  width: 100%;
+  height: 76px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+/* line 68, home.scss */
+header #logo {
+  width: 200px;
+  height: 50px;
+  margin: 30px 60px;
+  float: left;
+  background: url("../images/logo3.png") no-repeat center;
+  display: block;
+}
+
+/* line 78, home.scss */
+.header-navbar {
+  float: right;
+  padding: 20px;
+}
+/* line 81, home.scss */
+.header-navbar .header-menuIcon {
+  width: 40px;
+  height: 40px;
+  display: hidden;
+  background: #4c8fec url("../images/menu-icon.png") center;
+}
+/* line 86, home.scss */
+.header-navbar .header-menuIcon .header-navlink {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 89, home.scss */
+.header-navbar .header-menuIcon .header-navlink:hover {
+  color: #f00;
+}
+/* line 93, home.scss */
+.header-navbar .header-menuIcon .header-navActive {
+  color: #f00;
+  text-decoration: none;
+}
+
+/* line 102, home.scss */
+.header-navbar .header-ulList,
+.navbar2-ulList .header-ulList {
+  list-style-type: none;
+}
+/* line 106, home.scss */
+.header-navbar .header-navList,
+.header-navbar .navbar2-navList,
+.navbar2-ulList .header-navList,
+.navbar2-ulList .navbar2-navList {
+  display: inline-block;
+  padding: 10px 20px;
+}
+/* line 110, home.scss */
+.header-navbar .header-navlink,
+.navbar2-ulList .header-navlink {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+/* line 114, home.scss */
+.header-navbar .header-navlink:hover,
+.navbar2-ulList .header-navlink:hover {
+  color: #424DF6;
+  text-decoration: underline #424DF6;
+}
+/* line 119, home.scss */
+.header-navbar .header-navActive,
+.navbar2-ulList .header-navActive {
+  color: #f00;
+  text-decoration: none;
+}
+
+/* Media Queries in Mobile and Tablet Responsive*/
+@media only screen and (max-width: 780px) {
+  /* line 129, home.scss */
+  .header-navbar {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 135, home.scss */
+  .txt-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+/* line 1, font.scss */
+* {
+  fonts-family: 'Open Sans', sans-serif;
+  fonts-size: 12px;
+  fonts-weight: normal;
+  fonts-variant: normal;
+  -webkit-fonts-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../aasets/css/fontss/OpenSans-Bold.eot");
+  src: url("../assets/css/fontsOpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Bold.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Bold.woff") format("woff"), url("../assets/css/fontsOpenSans-Bold.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Bold.svg#open_sansbold") format("svg");
+  fonts-weight: 700;
+  fonts-style: normal;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../assets/css/fontsOpenSans-Italic.eot");
+  src: url("../assets/css/fontsOpenSans-Italic.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Italic.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Italic.woff") format("woff"), url("../assets/css/fontsOpenSans-Italic.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Italic.svg#open_sansitalic") format("svg");
+  fonts-weight: normal;
+  fonts-style: normal;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../assets/css/fontsOpenSans-Light.eot");
+  src: url("../assets/css/fontsOpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Light.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Light.woff") format("woff"), url("../assets/css/fontsOpenSans-Light.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Light.svg#open_sanslight") format("svg");
+  fonts-weight: 300;
+  fonts-style: normal;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../assets/css/fontsOpenSans-Regular.eot");
+  src: url("../assets/css/fontsOpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Regular.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Regular.woff") format("woff"), url("../assets/css/fontsOpenSans-Regular.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Regular.svg#open_sansregular") format("svg");
+  fonts-weight: 400;
+  fonts-style: normal;
+}
+
+@fonts-face {
+  fonts-family: 'Open Sans';
+  src: url("../assets/css/fontsOpenSans-Semibold.eot");
+  src: url("../assets/css/fontsOpenSans-Semibold.eot?#iefix") format("embedded-opentype"), url("../assets/css/fontsOpenSans-Semibold.woff2") format("woff2"), url("../assets/css/fontsOpenSans-Semibold.woff") format("woff"), url("../assets/css/fontsOpenSans-Semibold.ttf") format("truetype"), url("../assets/css/fontsOpenSans-Semibold.svg#open_sanssemibold") format("svg");
+  fonts-weight: 600;
+  fonts-style: normal;
+}
+
+/* line 1, about.scss */
+.navbar2-navlink {
+  color: #0030A5;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* line 8, about.scss */
+#logo1 {
+  width: 200px;
+  height: 50px;
+  margin: 23px 60px;
+  float: left;
+  display: block;
+  background: url(../images/logo4.png) no-repeat center;
+}
+
+/* line 17, about.scss */
+.about-container {
+  width: 100%;
+  padding-top: 100px;
+}
+
+/* line 22, about.scss */
+.about-wrap {
+  width: 70%;
+  margin-left: 60px;
+  margin-right: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* line 31, about.scss */
+.about-image-container {
+  width: 30%;
+  right: 0;
+  position: absolute;
+  top: 7em;
+  position: fixed;
+}
+
+/* line 39, about.scss */
+.about-image {
+  width: 100%;
+  max-width: 100%;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: url("../images/img-background.png") no-repeat;
+}
+
+/* line 52, about.scss */
+.about-txt {
+  font-size: 16px;
+  color: #0030A5;
+  font-weight: 500;
+  font-family: 'Helvetica', arial;
+  line-height: 30px;
+}
+
+/* line 1, contact.scss */
+.contact-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 130px;
+}
+/* line 5, contact.scss */
+.contact-container .icon-img {
+  width: 40px;
+  padding-bottom: 10px;
+}
+/* line 9, contact.scss */
+.contact-container .address-txt {
+  color: #0030A5;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+/* line 17, contact.scss */
+.contact-footer {
+  margin-top: 100px;
+}
+
+/* line 21, contact.scss */
+.footer-icon-list {
+  display: inline-block;
+  padding-left: 40px;
+  cursor: pointer;
+}
+/* line 25, contact.scss */
+.footer-icon-list .fa {
+  font-size: 28px;
+  color: #0030A5;
+}
+/* line 29, contact.scss */
+.footer-icon-list .copyright {
+  font-size: 18px;
+  color: #0030A5;
+  text-align: center;
+}
+
+/* line 36, contact.scss */
+.icon-container {
+  width: 42%;
+  float: left;
+}
+
+/* line 41, contact.scss */
+.copyright-container {
+  width: 58%;
+  float: right;
+}
+
+/* line 1, work.scss */
+.work-container {
+  margin: 140px auto;
+}
+
+/* line 5, work.scss */
+.work-thumbnail-block {
+  max-width: 1180px;
+  margin-left: 140px;
+  margin-right: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* line 14, work.scss */
+.work-thumbnail {
+  margin-right: 30px;
+}
+/* line 16, work.scss */
+.work-thumbnail:hover {
+  opacity: 0.5;
+}
+
+/* line 21, work.scss */
+.work-image {
+  padding-bottom: 40px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/* line 31, work.scss */
+.work-content-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 35, work.scss */
+.work-content-block .work-title {
+  color: #000;
+  font-size: 16px;
+}
+
+/* line 40, work.scss */
+.work-block-container {
+  position: relative;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* line 46, work.scss */
+.work-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/* line 55, work.scss */
+.text-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* line 66, work.scss */
+.work-block-container:hover .work-image {
+  opacity: 0.3;
+}
+
+/* line 70, work.scss */
+.work-block-container:hover .text-middle {
+  opacity: 1;
+}
+
+/* line 74, work.scss */
+.heading-text {
+  color: #000;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/* line 1, work.scss */
+.work-container {
+  margin: 140px auto;
+}
+
+/* line 5, work.scss */
+.work-thumbnail-block {
+  max-width: 1180px;
+  margin-left: 140px;
+  margin-right: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* line 14, work.scss */
+.work-thumbnail {
+  margin-right: 30px;
+}
+/* line 16, work.scss */
+.work-thumbnail:hover {
+  opacity: 0.5;
+}
+
+/* line 21, work.scss */
+.work-image {
+  padding-bottom: 40px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/* line 31, work.scss */
+.work-content-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 35, work.scss */
+.work-content-block .work-title {
+  color: #000;
+  font-size: 16px;
+}
+
+/* line 40, work.scss */
+.work-block-container {
+  position: relative;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* line 46, work.scss */
+.work-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/* line 55, work.scss */
+.text-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* line 66, work.scss */
+.work-block-container:hover .work-image {
+  opacity: 0.3;
+}
+
+/* line 70, work.scss */
+.work-block-container:hover .text-middle {
+  opacity: 1;
+}
+
+/* line 74, work.scss */
+.heading-text {
+  color: #000;
+  font-size: 16px;
+  padding: 16px 32px;
+}
